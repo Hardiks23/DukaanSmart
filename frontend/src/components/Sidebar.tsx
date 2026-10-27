@@ -123,15 +123,11 @@ export const Sidebar: React.FC<SidebarProps> = ({
         <div className="bg-white p-3 rounded-xl border border-stone-200/70 shadow-subtle">
           <div className="flex items-center gap-2 text-indigo-600 font-bold text-xs">
             <Award className="w-4 h-4 text-amber-500" />
-            <span>HackWithHyderabad 3.0</span>
+          
           </div>
-          <p className="text-[11px] text-slate-600 font-semibold mt-1">
-            Team 404: <span className="text-slate-900 font-bold">COMPETITION NOT FOUND</span>
-          </p>
-          <div className="mt-2 text-[10px] text-slate-400 leading-relaxed border-t border-stone-100 pt-1.5 flex flex-wrap gap-x-1.5">
-            <span>Hardik</span>•<span>Uday</span>•<span>Simardeep</span>•<span>Amit</span>
           </div>
-        </div>
+        
+        
       </div>
     </aside>
   );
